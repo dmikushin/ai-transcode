@@ -1,29 +1,42 @@
-# AI Code Translator
+# GPT Code Translator
 
-Use AI to translate code from one language to another.
+Use GPT to translate code from one language to another.
 
 ![AI Code Translator](./public/screenshot.png)
 
-## Running Locally
-
-**1. Clone Repo**
+## Clonning
 
 ```bash
-git clone https://github.com/mckaywrigley/ai-code-translator.git
+git clone https://github.com/dmikushin/ai-transcode.git
+cd ai-transcode
 ```
 
-**2. Install Dependencies**
+## Building
+
+Build locally:
 
 ```bash
 npm i
 ```
 
-**3. Run App**
+Or build a Docker container:
+
+docker build -t transcode-docker .
+
+## Deployment
+
+Run locally:
 
 ```bash
 npm run dev
 ```
 
+Or run with Docker container:
+
+```bash
+docker-compose up -d
+```
+
 ## Contact
 
-If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/mckaywrigley).
+Contact the author on [Twitter](https://twitter.com/mckaywrigley).
