@@ -21,7 +21,9 @@ npm i
 
 Or build a Docker container:
 
+```
 docker build -t transcode-docker .
+```
 
 ## Deployment
 
